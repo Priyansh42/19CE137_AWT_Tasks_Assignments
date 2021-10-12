@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - {%IDNO%}</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+
+<body class="bg-dark">
+    <h1 class="text-center text-white mt-5">PROFILE DETAILS</h1>
+    <div class="container mt-2">
+        <div class="card-header bg-black text-white border border-white">{%IDNO%} - {%FNAME%} {%LNAME%}</div>
+        <table class="table table-bordered table-striped text-black bg-white">
+            <tbody>
+                <tr>
+                    <td>Name</td>
+                    <td>{%FNAME%} {%LNAME%}</td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>{%EMAIL%}</td>
+                </tr>
+                <tr>
+                    <td>Mobile No.</td>
+                    <td>{%MOBILENO%}</td>
+                </tr>
+                <tr>
+                    <td>Date of Birth</td>
+                    <td>{%DOB%}</td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>{%GENDER%}</td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td>{%ADDRESS%}</td>
+                </tr>
+                <tr>
+                    <td>Institute</td>
+                    <td>{%INSTITUTE%}</td>
+                </tr>
+                <tr>
+                    <td>Department</td>
+                    <td>{%DEPARTMENT%}</td>
+                </tr>
+                <tr>
+                    <td>Semester</td>
+                    <td>{%SEMESTER%}</td>
+                </tr>
+                <tr>
+                    <td>ID No.</td>
+                    <td>{%IDNO%}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>

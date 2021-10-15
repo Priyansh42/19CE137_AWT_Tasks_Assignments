@@ -1,0 +1,9 @@
+npx create-react-app react-formik-form
+
+cd react-formik-form
+
+npm add formik styled-components yup
+
+npm start
+
+Create Styles.js in src
